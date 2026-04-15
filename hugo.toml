@@ -1,0 +1,6 @@
+baseURL = 'https://deavenrivaldi.github.io/'
+locale = 'en-us'
+author = 'Deaven Rivaldi'
+title = 'Deaven Rivaldi'
+theme = 'academia-hugo'
+disableKinds = ["RSS"]
