@@ -43,6 +43,6 @@ hero_media = "user-2.jpg"
 
 +++
 
-## Hi, I'm **Deaven Rivaldi (林振胜)** — a **Master's Student** specializing in **Robotics**
+## Hi, I'm **Deaven Rivaldi (林振胜)** — an **Engineer** specializing in **Robotics, Automation, and Software Systems**
 
-I build intelligent systems by combining software engineering and robotics, focusing on practical, real-world applications.
+I build intelligent and reliable systems by combining software engineering, automation, and real-world testing experience.

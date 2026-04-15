@@ -7,14 +7,14 @@ authors:
 - admin
 # resume download button
 btn:
-- url : "https://docs.gethugothemes.com/guide/"
+- url : "/files/cv.pdf"
   label : "Download Resume"
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Student of Automation and Control Engineering
+role: Master Student of Automation and Control Engineering
 
 # Organizations/Affiliations
 organizations:
@@ -31,13 +31,19 @@ interests:
 - System Automation
 - Robotics 
 - Quality Control
-- Artificial Intelligence
+- Intelligent Systems
 
 education:
   courses:
   - course: Master in Automation and Control Engineering
     institution: National Taiwan University of Science and Technology
     year: 2028
+  - course: Chinese Language Program
+    institution: Tunghai University
+    year: 2026
+  - course: Student Exchange Program in Automotive Engineering
+    institution: ASO College Group Japan
+    year: 2023
   - course: BE in Automotive and Robotics Engineering
     institution: Binus ASO School of Engineering
     year: 2023
@@ -49,7 +55,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:deavenrivaldi@gmail.com'  # For a direct email link, use "mailto:test@example.org".
+  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: whatsapp
   icon_pack: fab
   link: https://wa.me/+6281389829449
@@ -75,5 +81,11 @@ user_groups:
 - Visitors
 ---
 
-Deaven Rivaldi is a student of automation and control engineering at the National Taiwan University of Science and Technology. His research interests include system automation, healthcare robot, and system quality control. He is a part of the Robotic lab, which develops elderly caregiver robots, systems of self-organizing robots, and robotics failure system.
+Deaven Rivaldi (林振胜) is an engineer with a background in robotics, software systems, and quality assurance. He is currently pursuing advanced studies in automation and control engineering at the National Taiwan University of Science and Technology.
+
+His work focuses on building reliable and practical systems by integrating software, hardware, and automation. With experience as a Software Quality Assurance Analyst at a major financial institution, he has been involved in testing and validating large-scale mobile and web systems, ensuring performance, reliability, and user-focused design.
+
+He has also developed multiple engineering projects, including industrial testing machines, robotic systems, and web-based applications, combining mechanical design, embedded systems, and software development.
+
+His interests include system automation, robotics, quality control, and intelligent systems, with a growing focus on applying engineering solutions to real-world challenges.
 

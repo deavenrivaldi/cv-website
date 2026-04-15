@@ -53,16 +53,18 @@ time_format = "3:04 PM"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "test@example.org"
-phone = "888 888 88 88"
-address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+email = "deavenrivaldi@gmail.com"
+phone = "+886 983458711"
+address = "IB Building Room 811, National Taiwan University of Science and Technology,Taipei ,106335 , Taiwan"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = """Monday 10:00 to 13:00<br>
-                  Wednesday 09:00 to 10:00"""
+office_hours = """Tuesday 09:00 to 16:00<br>
+                  Wednesday 09:00 to 15:00<br>
+                  Thursday 09:00 to 15:00
+                  """
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendly.com"
+# appointment_url = "https://calendly.com"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
@@ -91,9 +93,9 @@ contact_links = [
 #   3: OpenStreetMap (Mapbox)
 map = 2
 map_api_key = "AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-latitude = "37.4275"
-longitude = "-122.1697"
-zoom = 15
+latitude = "25.013131443148804"
+longitude = "121.54029576810413"
+zoom = 17
 
 ############################
 ## Plugins                ##
