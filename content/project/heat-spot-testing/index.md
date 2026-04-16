@@ -21,6 +21,7 @@ image:
 ## **Overview**
 This project was developed as my undergraduate thesis in collaboration with an industrial partner. The goal was to improve the safety and efficiency of heat spot testing processes used in quality control environment
 
+> Eliminates human exposure to hazardous environments while improving industrial testing efficiency.
 ---
 
 ## **Problem**
@@ -37,7 +38,9 @@ I designed a **remotely controlled 2-axis motion system** that allows operators 
 
 The system eliminates the need for human interaction inside extreme environments while maintaining testing accuracy.
 
-# **System Design**
+---
+
+## **System Design**
 ### Mechanical Design
 - Custom rail structure resistant to extreme temperatures
 - Lamp holder and mounting system
@@ -63,7 +66,7 @@ The system eliminates the need for human interaction inside extreme environments
 
 ---
 
-## **Results**
+## **Outcome**
 - Eliminated direct human exposure to hazardous environments
 - Improved testing efficiency by reducing setup time
 - Maintained stable chamber conditions during operation
