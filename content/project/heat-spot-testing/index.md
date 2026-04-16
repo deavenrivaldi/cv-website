@@ -12,11 +12,29 @@ tags:
 date: "2023-07-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: 
+external_link: ""
 
 image:
   caption: 
   focal_point: Smart
+
+#links:
+#- icon:
+#  icon_pack: 
+#  name: 
+#  url: 
+#url_code: ""
+#url_pdf: ""
+#url_slides: ""
+#url_video: ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: ""
+
 ---
 ## **Overview**
 This project was developed as my undergraduate thesis in collaboration with an industrial partner. The goal was to improve the safety and efficiency of heat spot testing processes used in quality control environment
