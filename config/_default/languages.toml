@@ -4,17 +4,70 @@
 
 # Configure the English version of the site.
 [en]
-  languageCode = "en-us"
-  # contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+languageCode = "en-us"
+contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+languageName = "English"
+weight  = 1
 
 # Uncomment the lines below to configure your website in a second language.
-#[zh]
-#  languageCode = "zh-Hans"
-#  contentDir = "content/zh"
-#  title = "Chinese website title..."
+[zh]
+languageCode = "zh-Hans"
+contentDir = "content/zh"
+languageName = "中文 (简体)"
+title = "林振勝"
+weight = 2
+
 #  [zh.params]
 #    description = "Site description in Chinese..."
-#  [[zh.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
+
+[[zh.menu.main]]
+    name = "主页"
+    url = "#about"
+    weight = 10
+
+[[zh.menu.main]]
+  name = "文章"
+  url = "#posts"
+  weight = 20
+
+[[zh.menu.main]]
+  name = "项目"
+  url = "#projects"
+  weight = 30
+
+[[zh.menu.main]]
+  name = "出版物"
+  url = "#publications"
+  weight = 40
+
+#[[zh.menu.main]]
+#  name = "课程"
+#  url = "courses/"
+#  weight = 50
+
+[[zh.menu.main]]
+  name = "联系"
+  url = "#contact"
+  weight = 60
+
+#[[zh.menu.main]]
+#  name = "dropdown"
+#  url = "#"
+#  hasChildren = true
+
+#[[zh.menu.main]]
+#  parent = "dropdown"
+#  name = "dropdown 1"
+#  url = "#"
+
+#[[zh.menu.main]]
+#  parent = "dropdown"
+#  name = "dropdown 2"
+#  url = "#!"
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# [[zh.menu.main]]
+#    name = "简历"
+#    url = "files/cv.pdf"
+#    weight = 70
