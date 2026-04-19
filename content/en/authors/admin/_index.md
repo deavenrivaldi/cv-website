@@ -1,7 +1,7 @@
 ---
 # Display name
 name: Deaven Rivaldi
-avatar_image: "user-full.png"
+avatar_image: "user-full.jpeg"
 # Username (this should match the folder name)
 authors: 
 - admin

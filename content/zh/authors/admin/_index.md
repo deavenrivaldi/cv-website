@@ -1,7 +1,7 @@
 ---
 # Display name
 name: 林振胜
-avatar_image: "user-full.png"
+avatar_image: "user-full.jpeg"
 # Username (this should match the folder name)
 authors: 
 - admin
