@@ -13,9 +13,14 @@
     {{/* Show the About widget if an account exists for this user. */}}
     {{ if .File }}
       {{ $widget := "widgets/about.html" }}
-      {{/* Split by backslash (Windows path), get second segment = "admin" */}}
-      {{ $pathParts := split .File.Dir "\\" }}
-      {{ $username := index $pathParts 1 }}
+      {{/* Cross-platform path handling: normalize backslashes to forward slashes first */}}
+      {{ $normalizedDir := replace .File.Dir "\\" "/" }}
+      {{ $pathParts := split $normalizedDir "/" }}
+      {{/* Filter out empty strings from trailing slash, then take last non-empty segment */}}
+      {{ $username := "" }}
+      {{ range $pathParts }}
+        {{ if . }}{{ $username = . }}{{ end }}
+      {{ end }}
       {{ $params := dict "root" $ "page" . "author" $username }}
       {{ partial $widget $params }}
     {{end}}
